@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackAsTool>true</PackAsTool>
+    <ToolCommandName>pwcweather</ToolCommandName>
+    <PackageOutputPath>./pkg</PackageOutputPath>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="pkg\**" />
+    <EmbeddedResource Remove="pkg\**" />
+    <None Remove="pkg\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="StaticDB\in.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
+    <PackageReference Include="System.Collections" Version="4.3.0" />
+  </ItemGroup>
+
+</Project>
