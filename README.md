@@ -7,7 +7,7 @@
 
 # How to build and install application as package and install it in CLI?
 
-1. Open the project folder(WeatherTool --> WeatherTool) and run the command line for the same directory.
+1. Open the project folder(WeatherTool) and run the command line for the same directory.
 2. Now execute the command "dotnet pack".
 3. A new package fill will be generated in "pkg" folder.
 4. Now execute the command "dotnet tool install --global --add-source ./pkg weathertool".
@@ -18,7 +18,7 @@
 	
 # How to build and install application as dotnet core project using CLI?
 
-1. Open the project folder(WeatherTool --> WeatherTool) and run the command line for the same directory.
+1. Open the project folder(WeatherTool) and run the command line for the same directory.
 2. Now execute the command "dotnet run". This command have two overloads 
 	a. dotnet run
 	b. dotnet run <city name> exapmle:- pwcweather kolkata	
