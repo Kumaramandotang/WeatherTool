@@ -21,7 +21,7 @@
 1. Open the project folder(WeatherTool) and run the command line for the same directory.
 2. Now execute the command "dotnet run". This command have two overloads 
 	1. dotnet run
-	2. dotnet run city name example:- pwcweather kolkata	
+	2. dotnet run city name example:- dotnet run kolkata	
 	
 	
 # How to build and install application as dotnet core project using "Visual Studio 2022"?
