@@ -13,15 +13,15 @@
 4. Now execute the command "dotnet tool install --global --add-source ./pkg weathertool".
 4. After doing this our tool is ready to use in command line using "pwcweather" command name. 
 5. This tool provide two types of overloads
-	a. pwcweather
-	b. pwcweather <city name> exapmle:- pwcweather kolkata
+	1. pwcweather
+	2. pwcweather <city name> example:- pwcweather kolkata
 	
 # How to build and install application as dotnet core project using CLI?
 
 1. Open the project folder(WeatherTool) and run the command line for the same directory.
 2. Now execute the command "dotnet run". This command have two overloads 
-	a. dotnet run
-	b. dotnet run <city name> exapmle:- pwcweather kolkata	
+	1. dotnet run
+	2. dotnet run <city name> exapmle:- pwcweather kolkata	
 	
 	
 # How to build and install application as dotnet core project using "Visual Studio 2022"?
